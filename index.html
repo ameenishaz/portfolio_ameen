@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ameen portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/956f70f369.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" alt="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Designer</p>
+            <h1>Hy, I'm <span>Ameen</span><br>From Kerala</h1>
+        </div>
+    </div>
+    </div>
+    <!-------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="raw">
+                <div class="about-col-1">
+                    <img src="Untitled design.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Ameen, and I'm delighted to share a bit about who I am. I am a 19 year old individual who values lifelong learning and personal growth. My friends often describe me as  friendly, enthusiastic, reliable,
+        
+                        In terms of education, I have pursued Advanced diploma in Computer Engineering. Throughout my academic journey, I have developed a deep passion for Web designing. I believe that knowledge is a powerful tool that empowers us to make a positive impact on the world.
+                        
+                        Beyond academics, I have a diverse range of interests and hobbies. I thoroughly enjoy playing games,coding,watching movies. These activities bring me joy and provide a great balance in my life.
+                        
+                        As a person, I believe in the importance of empathy and understanding. I strive to treat others with respect and kindness, fostering meaningful connections with the people around me. I find solace and inspiration in these moments, helping me stay motivated and creative.
+                        
+                        Looking ahead, I aspire to full stack developer. I am excited to embark on this journey and make a positive impact on the lives of others.
+                        
+                        Thank you for taking the time to get to know me, and I'm eager to learn more about you and share more wonderful experiences together!</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                               <li><span>Web Designing</span><br>Designing Web interfaces</li>
+                               <li><span>Web Development</span><br>Creating Websites</li>
+                               <li><span>Graphic Designing</span><br>Creating Posters</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                           <li><span>2023-current</span><br>Designing Web interfaces Training at Softroniics</li>
+                           <li><span>2023</span><br>Trained at Softroniics</li>
+                           <li><span>2020-2022</span><br>Msf Media Wing</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                       <li><span>2020</span><br>10th From AMHS School Thirurkad</li>
+                       <li><span>2021-2022</span><br>Plus Two From St Mary's Heiger Secondary School Pariyapuram</li>
+                       <li><span>2023</span><br>Computer Engineering from Majlis Polytechnic college Valancheri</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------services------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Survices</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Knowledge of HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets) is crucial for web designers. These languages are used to structure and style web pages, defining how the content appears on the screen.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Web development is the process of creating websites and web applications for the internet. It involves a combination of programming, designing, and managing the functionality of websites. Web developers work with various technologies and languages to bring websites to life and make them interactive and functional for users.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-brush"></i>
+                    <h2>Grahic Design</h2>
+                    <p>Graphic design is a creative discipline that involves using visual elements, typography, images, and colors to communicate messages, ideas, or information visually. Graphic designers use their artistic and technical skills to create a wide range of designs for various purposes, such as branding, advertising, marketing materials, publications, websites, and more. Their work aims to capture attention, convey a message, and evoke emotions through visual representation.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------portfolio------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+              <div class="work-list">
+                <div class="work">
+                    <img src="job1.png">
+                    <div class="layer">
+                        <h3>Music Player Website</h3>
+                        <p>Hear It.</p>
+                        <a href="https://ameenishaz.github.io/hear_it/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="job2.png">
+                    <div class="layer">
+                        <h3>Tour Package Website</h3>
+                        <p>Forest.com</p>
+                        <a href="https://ameenishaz.github.io/forest.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="job3.png">
+                    <div class="layer">
+                        <h3>Game Purchasing Website</h3>
+                        <p>Game Hunt</p>
+                        <a href="https://ameenishaz.github.io/new_web/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+              </div>    
+                <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+          <!-------------contact------------->
+          <div id="contact">
+            <div class="container">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>ameen626266@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8138827062</p>
+                     <div class="social-icons">
+                        <a href="https://www.facebook.com/ameen.ami.9615566?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/_.ame._en._/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ameen-a-0a3904285/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bh311zFacReqEci4FwbRI3A%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                     </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+              <div class="copyright">
+                <p>Copyright &copy;2023 Ameen.All rights reserved <i class="fa-regular fa-face-smile"></i></p>
+              </div>
+          </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks
+            ){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents
+            ){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw0eiPusS6kd4FCgr8iASoSdgO8ozEkj4xKETrGT_RRNnmkozcvW0bOo75m9x9uneVY/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message send successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
